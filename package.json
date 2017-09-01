@@ -1,0 +1,19 @@
+{
+  "name": "hyu-zzim_backend_api",
+  "version": "1.0.0",
+  "description": "한양대학교 찜 백엔드 API",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "author": "yoonjeewoo@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "morgan": "^1.8.2",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.8.0"
+  }
+}
