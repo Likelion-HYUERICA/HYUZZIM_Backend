@@ -58,7 +58,7 @@ exports.login = (req, res) => {
                         secret,
                         {
                             expiresIn: '7d',
-                            issuer: 'velopert.com',
+                            issuer: 'yoonjeewoo@gmail.com',
                             subject: 'userInfo'
                         }, (err, token) => {
                             if (err) reject(err)
